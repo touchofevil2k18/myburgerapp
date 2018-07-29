@@ -1,8 +1,9 @@
 import React from 'react';
-import Classes from './Spinner.css';
+
+import classes from './Spinner.css';
 
 const spinner = () => (
-    <div className={Classes.Loader}>Loading...</div>
+    <div className={classes.Loader}>Loading...</div>
 );
 
 export default spinner;
